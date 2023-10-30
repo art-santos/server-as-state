@@ -26,9 +26,7 @@ export const SetCookieButton = () => {
             const jsonString = binaryData.toString('utf8');
             const jsonObject = JSON.parse(jsonString);
             
-            if(jsonObject.value === state.value){
-                toogle()
-            }
+            toogle()
         };
     return (
         <>

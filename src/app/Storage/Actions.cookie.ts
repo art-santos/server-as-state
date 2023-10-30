@@ -20,7 +20,7 @@ export const cookieSetter = (name: string, value: string, days: number) => {
   return serverCookie;
 };
 
-export const emitEvent = (): Promise<Uint8Array> => {
+export const emitEvent = async (): Promise<Uint8Array> => {
   startActor();
   actor.send({ type: 'TOGGLE' });
   const snapshot = actor.getSnapshot().toJSON();

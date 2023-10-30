@@ -4,6 +4,9 @@ dependencies:
   '@headlessui/react':
     specifier: ^1.7.17
     version: 1.7.17(react-dom@18.0.0)(react@18.0.0)
+  '@vercel/edge':
+    specifier: ^1.1.0
+    version: 1.1.0
   '@xstate/immer':
     specifier: ^0.3.3
     version: 0.3.3(immer@10.0.3)(xstate@5.0.0-beta.38)
@@ -399,6 +402,10 @@ packages:
       '@typescript-eslint/types': 6.9.0
       eslint-visitor-keys: 3.4.3
     dev: true
+
+  /@vercel/edge@1.1.0:
+    resolution: {integrity: sha512-84H2EavY5Kul9Ef1DnTH0XEG5vChqcXjyqoRLVPjjZjLWw47sMapzXXQH09pybcshR+8AKqULGvFqPTWuRh3Rw==}
+    dev: false
 
   /@xstate/immer@0.3.3(immer@10.0.3)(xstate@5.0.0-beta.38):
     resolution: {integrity: sha512-6AcNYkWdQrU+BKRg0MVjC2HBRZrZWADHJXcUL9uXem4BFpw9qy9NlbLPWkvnDayvmUq2sbYrzWTfxBMaiOhe5A==}
